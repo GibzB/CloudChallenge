@@ -13,3 +13,13 @@ Big Query Machine Learning (BQML, product in beta) is a new feature in BigQuery 
 I learned how to use Google Cloud Billing reports and the cost breakdown report to gain visibility into your current and forecasted costs!
 Google Cloud Billing reports, provides built-in cost reporting for GCP within the Google Cloud Console. Billing reports can be viewed from a live billing account and in that case understanding current and forecasted GCP costs, which then can be analyzed in relation to costs using report filters to identify cost drivers and trends.
 I explored a sample of Cloud Billing records in BigQuery. After examining the sample dataset and table, I composed and ran queries on the billing data.
+
+### DataFlow & Apache Beam
+All provide templates, for streaming, batch and utility
+
+### Looker & Google Data Studio
+Has lookML, and is 100% web based
+have many data visualisations, and shared through various google applications
+
+Data studio is integrated into bitquery
+Dashboard can be created by templates and link a data source
