@@ -23,3 +23,11 @@ have many data visualisations, and shared through various google applications
 
 Data studio is integrated into bitquery
 Dashboard can be created by templates and link a data source
+
+### Terraform Fundamentals
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing, popular service providers and custom in-house solutions.
+
+Configuration files describe to Terraform the components needed to run a single application or your entire data center. Terraform generates an execution plan describing what it will do to reach the desired state, and then executes it to build the described infrastructure. As the configuration changes, Terraform can determine what changed and create incremental execution plans that can be applied.
+
+Terraform can manage both low-level components such as compute instances, storage, and networking, and high-level components such as DNS entries and SaaS features.
+
