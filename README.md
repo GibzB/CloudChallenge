@@ -40,3 +40,16 @@ Terraform can manage both low-level components such as compute instances, storag
 ## Google Cloud Pub/Sub: Qwik Start - Console
 
 
+## Introduction to Docker
+Docker is an open platform for developing, shipping, and running applications. With Docker, you can separate your applications from your infrastructure and treat your infrastructure like a managed application. Docker helps you ship code faster, test faster, deploy faster, and shorten the cycle between writing code and running code.
+
+Docker does this by combining kernel containerization features with workflows and tooling that helps you manage and deploy your applications.
+
+Docker containers can be directly used in Kubernetes, which allows them to be run in the Kubernetes Engine with ease. After learning the essentials of Docker, you will have the skillset to start developing Kubernetes and containerized applications.
+
+#### Lessons learnt
+- Ran containers based on public images from Docker Hub.
+- Built your own container images and pushed them to Google Container Registry.
+- Learned ways to debug running containers.
+- Ran containers based on images pulled from Google Container Registry.
+
