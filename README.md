@@ -1,10 +1,18 @@
 # ☁️ CloudChallenges 
 My cloud computing learning journey. My hope is to encourage you to build secure, scalable, highly available and cost-effective cloud applications. 
 
+## Cloud IAM
+Google Cloud's Identity and Access Management (IAM) service lets you create and manage permissions for Google Cloud resources. Cloud IAM unifies access control for Google Cloud services into a single system and provides a consistent set of operations.
+
+#### Lessons learnt
+- Assigning and revoking roles/permissions to users from Google Cloud Project Owner and Viewer roles.
+
+
 
 ## DataProc
 Cloud Dataproc is a fast, easy-to-use, fully-managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way. 
 Learnt how to use the Cloud Console to create and update a Dataproc cluster and then submit a job in that cluster.
+
 
 
 ## BQML (Big Query Machine Language)
@@ -12,22 +20,27 @@ BigQuery is Google's fully managed, NoOps, low cost analytics database where you
 Big Query Machine Learning (BQML, product in beta) is a new feature in BigQuery where data analysts can create, train, evaluate, and predict with machine learning models with minimal coding.
 
 
+
 ## Google Cloud Billing Reports
 I learned how to use Google Cloud Billing reports and the cost breakdown report to gain visibility into your current and forecasted costs!
 Google Cloud Billing reports, provides built-in cost reporting for GCP within the Google Cloud Console. Billing reports can be viewed from a live billing account and in that case understanding current and forecasted GCP costs, which then can be analyzed in relation to costs using report filters to identify cost drivers and trends.
 I explored a sample of Cloud Billing records in BigQuery. After examining the sample dataset and table, I composed and ran queries on the billing data.
 
+
+
 ## DataFlow & Apache Beam
 All provide templates, for streaming, batch and utility
+
 
 
 ## Looker & Google Data Studio
 Has lookML, and is 100% web based
 have many data visualisations, and shared through various google applications
 
-
 Data studio is integrated into bitquery
 Dashboard can be created by templates and link a data source
+
+
 
 
 ## Terraform Fundamentals
