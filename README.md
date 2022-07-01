@@ -75,3 +75,11 @@ Docker containers can be directly used in Kubernetes, which allows them to be ru
 - Learned ways to debug running containers.
 - Ran containers based on images pulled from Google Container Registry.
 
+
+## Classify Text into Categories with the Natural Language API
+Used the Cloud Natural Language API lets you extract entities from text, perform sentiment and syntactic analysis, and classify text into categories.
+
+#### Lessons learnt
+- Created a Natural Language API request and called the API with `curl`
+- Used the NL API's text classification feature
+- Used text classification to understand a dataset of a news articles
