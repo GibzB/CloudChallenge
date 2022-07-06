@@ -83,3 +83,11 @@ Used the Cloud Natural Language API lets you extract entities from text, perform
 - Created a Natural Language API request and called the API with `curl`
 - Used the NL API's text classification feature
 - Used text classification to understand a dataset of a news articles
+
+
+## Bigtable:Command Line
+Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail. Bigtable is designed to handle massive workloads at consistent low latency and high throughput, so it's a great choice for both operational and analytical applications, including IoT, user analytics, and financial data analysis.
+
+#### Lessons learnt
+- Used the `cbt` command line to connect to a Cloud Bigtable instance
+- Performed basic administrative tasks, and read and write data in a table.
