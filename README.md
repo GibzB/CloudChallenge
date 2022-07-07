@@ -91,3 +91,13 @@ Cloud Bigtable is Google's NoSQL Big Data database service. It's the same databa
 #### Lessons learnt
 - Used the `cbt` command line to connect to a Cloud Bigtable instance
 - Performed basic administrative tasks, and read and write data in a table.
+
+
+
+## Cloud SQL for SQL Server
+Cloud SQL provides a cloud-based alternative to local MySQL, PostgreSQL, and SQL Server databases. You should use Cloud SQL if you want to spend less time managing your database and more time using it.
+
+
+#### Lessons learnt
+- created a SQL Server instance on Google Cloud and connected to it using SQL Server Management Studio!
+- performed basic SQL operations using the Google Cloud Console and a client.
