@@ -28,6 +28,13 @@ Learnt how to use the Cloud Console to create and update a Dataproc cluster and 
 BigQuery is Google's fully managed, NoOps, low cost analytics database where you can query terabytes and terabytes of data without having any infrastructure to manage or needing a database administrator. BQ uses SQL and can take advantage of the pay-as-you-go model and it also allows you to focus on analyzing data to find meaningful insights.
 Big Query Machine Learning (BQML, product in beta) is a new feature in BigQuery where data analysts can create, train, evaluate, and predict with machine learning models with minimal coding.
 
+- ## BigQuery: Command Line
+  BigQuery is a serverless, highly scalable cloud data warehouse that solves this problem by enabling super-fast SQL queries using the processing power   of Google's infrastructure.
+  You can access BigQuery by using the Console, Web UI or a command-line tool using a variety of client libraries such as Java, .NET, or Python. There     are also a variety of solution providers that you can use to interact with BigQuery.
+  
+  #### Lessons learnt
+  - Used `bq`, (the python-based command line tool for BigQuery), to query public tables and load sample data into BigQuery
+
 
 
 ## Google Cloud Billing Reports
