@@ -30,7 +30,7 @@ Big Query Machine Learning (BQML, product in beta) is a new feature in BigQuery 
 
 - ## BigQuery: Command Line
   BigQuery is a serverless, highly scalable cloud data warehouse that solves this problem by enabling super-fast SQL queries using the processing power   of Google's infrastructure.
-  You can access BigQuery by using the Console, Web UI or a command-line tool using a variety of client libraries such as Java, .NET, or Python. There     are also a variety of solution providers that you can use to interact with BigQuery.
+  BigQuery can be accessed by using the Console, Web UI or a command-line tool using a variety of client libraries such as Java, .NET, or Python. There   are also a variety of solution providers that provide tools to access BigQuery 
   
   #### Lessons learnt
   - Used `bq`, (the python-based command line tool for BigQuery), to query public tables and load sample data into BigQuery
