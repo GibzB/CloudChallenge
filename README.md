@@ -115,3 +115,14 @@ Compute Engine encrypts all data at rest by default. It handles and manages this
 - Encrypted a new persistent disk with your own key.
 - Attached the disk to a compute engine instance.
 - Created a snapshot from an encrypted disk.
+
+
+## Creating a BigQuery Authorized View
+Giving a view access to a dataset is also known as creating an authorized view in BigQuery. An authorized view lets you share query results with particular users and groups without giving them access to the underlying tables. You can also use the view's SQL query to restrict the columns (fields) the users are able to query.
+
+#### Lessons learnt
+- Created and used Authorized Views in BigQuery.
+- Implemented row-level filtering using information about the logged-in user.
+- Set permissions on BigQuery datasets.
+- Authorized Views to provide audiences read-only access to subsets of tables.
+- Used the `SESSION_USER()` function to limit access to specific rows within a table/view.
