@@ -48,15 +48,12 @@ I explored a sample of Cloud Billing records in BigQuery. After examining the sa
 All provide templates, for streaming, batch and utility
 
 
-
 ## Looker & Google Data Studio
 Has lookML, and is 100% web based
 have many data visualisations, and shared through various google applications
 
 Data studio is integrated into bitquery
 Dashboard can be created by templates and link a data source
-
-
 
 
 ## Terraform Fundamentals
@@ -108,3 +105,13 @@ Cloud SQL provides a cloud-based alternative to local MySQL, PostgreSQL, and SQL
 #### Lessons learnt
 - created a SQL Server instance on Google Cloud and connected to it using SQL Server Management Studio!
 - performed basic SQL operations using the Google Cloud Console and a client.
+
+
+## Encrypting Disks with Customer-Supplied Encryption Keys
+Compute Engine encrypts all data at rest by default. It handles and manages this encryption without any additional action on your part. However, one can control and manage this encryption alone by providing thier own encryption keys.
+
+#### Lessons learnt
+- Created an encryption key and wrapped it with the Compute Engine RSA public key certificate.
+- Encrypted a new persistent disk with your own key.
+- Attached the disk to a compute engine instance.
+- Created a snapshot from an encrypted disk.
