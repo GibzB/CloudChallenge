@@ -126,3 +126,19 @@ Giving a view access to a dataset is also known as creating an authorized view i
 - Set permissions on BigQuery datasets.
 - Authorized Views to provide audiences read-only access to subsets of tables.
 - Used the `SESSION_USER()` function to limit access to specific rows within a table/view.
+
+
+## Orchestrating the Cloud with Kubernetes
+Kubernetes is an open source project (available on kubernetes.io) which can run on many different environments, from laptops to high-availability multi-node clusters, from public clouds to on-premise deployments, from virtual machines to bare metal.
+
+Used the managed Kubernetes Engine environment that allowed me to focus on experiencing Kubernetes rather than setting up the underlying infrastructure.
+Used App []; a 12-Factor application and the following Docker images:
+    `kelseyhightower/monolith` - Monolith includes auth and hello services.
+    `kelseyhightower/auth` - Auth microservice. Generates JWT tokens for authenticated users.
+    `kelseyhightower/hello` - Hello microservice. Greets authenticated users.
+    `nginx` - Frontend to the auth and hello services.
+
+#### Lessons Learnt
+- Provisioned a complete Kubernetes cluster using Kubernetes Engine.
+- Deployed and manage Docker containers using kubectl.
+- Broke an application into microservices using Kubernetes' Deployments and Services
