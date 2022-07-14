@@ -160,4 +160,6 @@ Used [App](https://github.com/kelseyhightower/app); a 12-Factor application and 
 Apache Cassandra for GCP gives users and enterprises a simple deployment process to quickly install a Cassandra cluster on GCP in a single region across multiple zones. Each cluster also includes a VM that provides a complete set of development resources including code examples, docs, and data integration tools. Optionally, DataStax Luna also provides subscription-based support for open-source Cassandra on GCP. DataStax Luna subscribers get the benefits of open-source software, with direct access to leading Cassandra contributors.
 
 #### Lessons Learnt
-deployed an Apache Cassandra™ database, connected to the database using CQL Shell and run some simple DDL commands to create a table, load some data and query it.
+- Deployed an Apache Cassandra™ database, 
+- Connected to the database using CQL Shell and run some simple DDL commands to create a table, 
+- Loaded some data and query it.
