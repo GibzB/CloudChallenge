@@ -143,3 +143,14 @@ Used [App](https://github.com/kelseyhightower/app); a 12-Factor application and 
 - Provisioned a completed Kubernetes cluster using Kubernetes Engine.
 - Deployed and managed Docker containers using kubectl.
 - Broke an application into microservices using Kubernetes' Deployments and Services
+
+
+## Using gsutil to Perform Operations on Buckets and Objects
+`gsutil` is a Python application that lets you access Cloud Storage from the command line. The gsutil tool has commands such as `mb` and `cp` to perform operations. Each command has a set of options that are used to customize settings further.
+
+#### Lessons Learnt
+- Create a bucket
+- Copy files from a local folder to a bucket
+- Synchronize the contents of the local folder with the contents of the bucket
+- Change access control permissions on objects
+- Delete a bucket.
