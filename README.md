@@ -187,3 +187,14 @@ To lower your carbon emissions, you need to reduce the electricity consumption o
 - Explored your Carbon Footprint Data
 - Used the Cloud Region Picker
 - Reduced your cloud carbon footprint with Active Assist recommendations
+
+
+## Cloud Scheduler
+Cloud Scheduler is a fully managed enterprise-grade cron job scheduler. It allows you to schedule virtually any job, including batch, big data jobs, cloud infrastructure operations, and more. You can automate everything, including retries in case of failure to reduce manual intervention. Cloud Scheduler allows you to manage all your automation tasks from one place.
+
+#### Lessons Learnt
+- Created a Cloud Scheduler job.
+- Set a recurring schedule for a job.
+- Specified a Cloud Pub/Sub topic as the job target.
+- Ran a job.
+- Verified success.
