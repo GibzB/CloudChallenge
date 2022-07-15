@@ -163,3 +163,27 @@ Apache Cassandra for GCP gives users and enterprises a simple deployment process
 - Deployed an Apache Cassandra™ database, 
 - Connected to the database using CQL Shell and run some simple DDL commands to create a table, 
 - Loaded some data and query it.
+
+
+## Google Cloud Sustainability
+built a collection of tools to help you accurately report the carbon emissions associated with your Google Cloud usage and take action to reduce your carbon footprint. The Carbon Sense suite brings together features from multiple Google Cloud products, like Active Assist and Carbon Footprint, to help users everywhere make progress towards ensuring a healthier planet.
+
+There are three key categories of carbon emissions associated with running workloads in the cloud:
+
+- Electricity consumption
+- Burning on-site fossil fuels
+- Upstream and downstream activities
+
+Carbon-free energy includes wind, solar, geothermal, biomass, nuclear, hydropower, and pumped storage or battery storage discharge. For each region    Google Cloud operates in, we measure the percentage of carbon free energy (CFE%) consumed in a particular location on an hourly basis.
+The regional CFE score represents the average percentage of time your applications deployed in that cloud region will be running on carbon-free energy.
+
+To lower your carbon emissions, you need to reduce the electricity consumption of your cloud workloads from carbon-based sources. To lower your carbon emissions, here are the recommended primary strategies:
+
+1. Choose cloud regions with higher average hourly CFE%, and lower grid carbon intensity. For regions that have the same CFE%, use grid carbon intensity to further compare the emissions performance of those regions.
+2. Optimize cloud workloads to reduce carbon emissions. For example, increase efficiency by using elastic cloud services and autoscaling features to minimize unused compute resources, and run batch workloads during times when grid carbon intensity is lower.
+3. Set organizational policies to restrict the location of cloud resources to cleaner regions.
+
+#### Lessons Learnt
+- Explored your Carbon Footprint Data
+- Used the Cloud Region Picker
+- Reduced your cloud carbon footprint with Active Assist recommendations
