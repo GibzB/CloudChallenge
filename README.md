@@ -198,3 +198,30 @@ Cloud Scheduler is a fully managed enterprise-grade cron job scheduler. It allow
 - Specified a Cloud Pub/Sub topic as the job target.
 - Ran a job.
 - Verified success.
+
+
+## Datastore
+(Cloud Datastore) is a highly scalable, fully managed NoSQL database service offered by Google on the Google Cloud Platform.
+Cloud storage is something that allows you to save data and files in an off-site location that you access either through the public internet or a dedicated private network connection. This is very cost-effective for businesses since physical files can replaced with cloud storage records.[3] Cloud Datastore is built upon Google's Bigtable and Megastore technology.
+Google Cloud Datastore allows the user to create databases either in Native or Datastore Mode. Native Mode is designed for mobile and web apps, while Datastore Mode is designed for new server projects.
+
+Datastore features include:
+
+- `Atomic transactions.` 
+Datastore can execute a set of operations where either all succeed, or none occur.
+High availability of reads and writes. Datastore runs in Google data centers, which use redundancy to minimize impact from points of failure.
+- `Massive scalability with high performance.`
+Datastore uses a distributed architecture to automatically manage scaling. Datastore uses a mix of indexes and query constraints so your queries scale with the size of your result set, not the size of your data set.
+- `Flexible storage and querying of data.` 
+Datastore maps naturally to object-oriented and scripting languages, and is exposed to applications through multiple clients. It also provides a SQL-like query language.
+- `Balance of strong and eventual consistency.` 
+Datastore ensures that entity lookups by key and ancestor queries always receive strongly consistent data. `All other queries are eventually consistent. The consistency models allow your application to deliver a great user experience while handling large amounts of data and users.
+- `Encryption at rest.` 
+Datastore automatically encrypts all data before it is written to disk and automatically decrypts the data when read by an authorized user. For more information, see Server-Side Encryption.
+- `Fully managed with no planned downtime.` 
+Google handles the administration of the Datastore service so you can focus on your application. Your application can still use Datastore when the service receives a planned upgrade.
+
+Note: Firestore, the newest version of Datastore, makes all queries strongly consistent.
+
+#### Lessons Learnt
+- Stored and queried data in Google Cloud Datastore using the Google Cloud.
