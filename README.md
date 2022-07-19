@@ -227,7 +227,7 @@ Note: Firestore, the newest version of Datastore, makes all queries strongly con
 - Stored and queried data in Google Cloud Datastore using the Google Cloud.
 
 
-## Transfer Learning
+## Transfer Learning (a case of Classifying Images of Cats and Dogs)
 
 In transfer learning, building a new model to classify your original dataset, reuse of the extraction feature part and re-train the classification part with the dataset. This method uses less computational resources and training time. Deep learning from scratch can take days, but transfer learning can be done in short order.
 Tensorflow(an end-to-end open source platform for machine learning) tools, libraries and community services pushes for easy build and deployment of ML powered applications.
