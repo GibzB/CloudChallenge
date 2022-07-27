@@ -1,4 +1,4 @@
-# ☁️ CloudChallenges 
+# ☁️ Cloud Challenges 
 My cloud computing learning journey. My hope is to encourage you to build secure, scalable, highly available and cost-effective cloud applications. 
 
 ## Google AppSheet
@@ -238,3 +238,11 @@ Tensorflow(an end-to-end open source platform for machine learning) tools, libra
 - Used a pre-trained model for feature extraction
 - Fine-tuned a pre-trained model
 
+
+## Working with Cloud Build
+ 
+Cloud Build is a service that executes your builds on Google Cloud. Cloud Build can import source code from a variety of repositories or cloud storage spaces, execute a build to your specifications, and produce artifacts such as Docker containers or Java archives.
+
+#### Lessons Learnt
+- Used Cloud Build to build and push Docker container
+- Used Container Registry to store and deploy containers
