@@ -271,3 +271,29 @@ Three common scenarios for heterogeneous deployment are multi-cloud deployments,
 #### Lessons Learnt
 - Worked more with the `kubectl` command-line tool, and many styles of deployment configurations set up in YAML files to launch, update, and scale deployments.
 - Updated deployments and deployment styles
+
+
+
+## VPC Network Peering
+
+Google Cloud Virtual Private Cloud (VPC) Network Peering allows private connectivity across two VPC networks regardless of whether or not they belong to the same project or the same organization.
+
+VPC Network Peering allows you to build SaaS (Software-as-a-Service) ecosystems in Google Cloud, making services available privately across different VPC networks within and across organizations, allowing workloads to communicate in private space.
+
+VPC Network Peering is useful for:
+
+Organizations with several network administrative domains.
+Organizations that want to peer with other organizations.
+If you have multiple network administrative domains within your organization, VPC Network Peering allows you to make services available across VPC networks in private space. If you offer services to other organizations, VPC Network Peering allows you to make those services available in private space to those organizations.
+
+The ability to offer services across organizations is useful if you want to offer services to other enterprises, and it is useful within your own enterprise if you have several distinct organization nodes due to your own structure or as a result of mergers or acquisitions.
+
+VPC Network Peering gives you several advantages over using external IP addresses or VPNs to connect networks, including:
+
+Network Latency: Private networking offers lower latency than public IP networking.
+
+Network Security: Service owners do not need to have their services exposed to the public Internet and deal with its associated risks.
+
+Network Cost: Networks that are peered can use internal IPs to communicate and save Google Cloud egress bandwidth costs. Regular network pricing still applies to all traffic.
+
+
