@@ -37,6 +37,16 @@ Big Query Machine Learning (BQML, product in beta) is a new feature in BigQuery 
 
 
 
+## Troubleshooting Common SQL Errors with BigQuery
+Logic of troubleshooting queries. It provides activities within the context of a real-world scenario. Throughout the lab, imagine you're working with a new data analyst on your team, and they've provided you with their queries below to answer some questions on your ecommerce dataset. Use the answers to fix their queries to get a meaningful result.
+
+#### Lessons learnt
+- Queried the data-to-insights public dataset
+- Used the BigQuery Query editor to troubleshoot common SQL errors
+- Used the Query Validator
+- Troubleshoot syntax and logical SQL errors
+
+
 ## Google Cloud Billing Reports
 I learned how to use Google Cloud Billing reports and the cost breakdown report to gain visibility into your current and forecasted costs!
 Google Cloud Billing reports, provides built-in cost reporting for GCP within the Google Cloud Console. Billing reports can be viewed from a live billing account and in that case understanding current and forecasted GCP costs, which then can be analyzed in relation to costs using report filters to identify cost drivers and trends.
