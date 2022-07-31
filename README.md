@@ -307,3 +307,12 @@ Network Security: Service owners do not need to have their services exposed to t
 Network Cost: Networks that are peered can use internal IPs to communicate and save Google Cloud egress bandwidth costs. Regular network pricing still applies to all traffic.
 
 
+
+## Ingesting Data Into The Cloud
+ 
+The techniques used to ingest this data from the website into the cloud can be applied to other data sets that provide comprehensive real world data but must be parsed and cleaned before to be usefull.
+
+#### Lessons Learnt
+- Used a bash script to download selected data from a large public data set(US Bureau of Transport Statistics (BTS) website).
+- Stored the data in Cloud Storage
+- Loaded data into Google BigQuery
