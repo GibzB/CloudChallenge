@@ -316,3 +316,13 @@ The techniques used to ingest this data from the website into the cloud can be a
 - Used a bash script to download selected data from a large public data set(US Bureau of Transport Statistics (BTS) website).
 - Stored the data in Cloud Storage
 - Loaded data into Google BigQuery
+
+## Cloud Run
+Cloud Run is a managed compute platform that enables you to run stateless containers that are invocable via HTTP requests. Cloud Run is serverless: it abstracts away all infrastructure management, so you can focus on what matters most — building great applications.
+
+Cloud Run automatically and horizontally scales your container image to handle the received requests, then scales down when demand decreases.
+
+Knative, letting you choose to run your containers either fully managed with Cloud Run, or in your Google Kubernetes Engine cluster with Cloud Run on GKE.
+
+#### Lessons Learnt
+- Deployed an application packaged in a container image to Cloud Run.
