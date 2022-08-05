@@ -326,3 +326,13 @@ Knative, letting you choose to run your containers either fully managed with Clo
 
 #### Lessons Learnt
 - Deployed an application packaged in a container image to Cloud Run.
+
+
+
+## Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API
+The Cloud Vision API lets you understand the content of an image by encapsulating powerful machine learning models in a simple REST API.
+In this lab, we will send images to the Vision API and see it detect objects, faces, and landmarks.
+
+#### Lessons Learnt
+- Called the Vision API with curl by passing it the URL of an image in a Cloud Storage bucket
+- Used the Vision API's label, face, and landmark detection methods
