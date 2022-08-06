@@ -336,3 +336,12 @@ In this lab, we will send images to the Vision API and see it detect objects, fa
 #### Lessons Learnt
 - Called the Vision API with curl by passing it the URL of an image in a Cloud Storage bucket
 - Used the Vision API's label, face, and landmark detection methods
+
+
+## Google Workspace Admin: Provisioning
+Google Workspace Provisioning is supported by Google to automate user provisioning for many cloud applications. With Google Workspace User Provisioning, you can provision all the users with their identities from any external sources automatically in the Google Admin console.
+
+#### Lessons learnt
+- Created Google Groups
+- Created a Calendar resource
+- Adde a domain to your Google Workspace organization.
