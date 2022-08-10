@@ -345,3 +345,12 @@ Google Workspace Provisioning is supported by Google to automate user provisioni
 - Created Google Groups
 - Created a Calendar resource
 - Adde a domain to your Google Workspace organization.
+
+## Google Workspace Admin: Managing Applications
+Designated "power users" (for example, an external service desk or key-users of departments) can perform simple tasks that would otherwise have to be carried out by the Google domain administrators. User management is key to Google Workspace administration since it’s the first step in building a collaborative team environment. Once that user logs in they have access to Google-powered apps like Gmail, Meet, Drive, Calendar, and more.
+This tool allows your Google domain administrators to adjust settings in the user account. Without having to log into the account. This ensures the security of the account and the privacy of your employees while simplifying communication, file sharing, and provide everything you need to unite your team for success.Touching on three different applications in this lab, specifically Gmail, Google Vault, and Google Drive. 
+
+#### Lessons learnt
+- Created three OUs and add users to those OUs
+- Configured application access based on OUs
+- Configured application settings based on OUs
