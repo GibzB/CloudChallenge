@@ -354,3 +354,14 @@ This tool allows your Google domain administrators to adjust settings in the use
 - Created three OUs and add users to those OUs
 - Configured application access based on OUs
 - Configured application settings based on OUs
+
+
+## Google Workspace Admin: Securing
+Google Workspace administrators are presented with a wealth of security settings, which they will need to learn in order to effectively keep their environment secure.
+With options not limited to reviewing a list of all user accounts and devices, disabling or removing accounts and devices accordingly. They can also review and manage Google Workspace apps, Google Services, Marketplace Apps, and any apps that connect to Google Workspace via SAML (Security Assertion Markup Language). 
+
+#### Lessons learnt
+- Reviewed password policy settings
+- Enabled user account recovery
+- Enabled 2-Step Verification for a subset of users
+- Whitelisted apps in the Marketplace
