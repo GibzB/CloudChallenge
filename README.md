@@ -390,7 +390,7 @@ Terraform understands relationships between resources which may help in scheduli
 
 
 ## HTTPS Content-Based Load Balancer with Terraform
-(External HTTP(S) Load Balancing) [https://cloud.google.com/load-balancing/docs/https] is a proxy-based Layer 7 load balancer that enables you to run and scale your services behind a single external IP address. External HTTP(S) Load Balancing distributes HTTP and HTTPS traffic to backends hosted on a variety of Google Cloud platforms (such as Compute Engine, Google Kubernetes Engine (GKE), Cloud Storage, and so on), as well as external backends connected over the internet or via hybrid connectivity. 
+[External HTTP(S) Load Balancing](https://cloud.google.com/load-balancing/docs/https) is a proxy-based Layer 7 load balancer that enables you to run and scale your services behind a single external IP address. External HTTP(S) Load Balancing distributes HTTP and HTTPS traffic to backends hosted on a variety of Google Cloud platforms (such as Compute Engine, Google Kubernetes Engine (GKE), Cloud Storage, and so on), as well as external backends connected over the internet or via hybrid connectivity. 
 
 
 #### Lessons learnt
