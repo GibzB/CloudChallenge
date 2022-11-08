@@ -389,6 +389,24 @@ Terraform understands relationships between resources which may help in scheduli
 - Familiarized myself with `kubectl` CLI.
 
 
+## Google Cloud Packet Mirroring with OpenSource IDS.
+Traffic Mirroring is a key feature in Google Cloud networking for security and network analysis. Its functionality is similar to that of a network tap or a span session in traditional networking. In short, Packet Mirroring captures network traffic (ingress and egress) from select "mirrored sources", copies the traffic, and forwards the copy to "collectors".
+Packet Mirroring captures the full payload of each packet and thus consumes additional bandwidth as it is not based on any sampling period, it is able to be used for better troubleshooting, security solutions, and higher layer application based analysis.
+founded on a "Packet Mirroring Policy", which contains the following attributes:
+
+Region
+VPC Network(s)
+Mirrored Source(s)
+Collector (destination)
+Mirrored traffic (filter)
+
+Google Cloud Packet Mirroring does not require any additional software on the VMs and it is fully distributed across each of the mirrored virtual machines. The "Collector" IDS is placed out-of-path using an Internal Network Load Balancer (ILB) and will receive both "north-south" traffic and "east-west" traffic.
+
+#### Lessons learnt
+- Created a Google Cloud environment, configure the "Collector" ILB, configure the Packet Mirror Policy
+- Completed network tests to validate the configuration and use of Packet Mirroring with the Open Source IDS.
+
+
 ## HTTPS Content-Based Load Balancer with Terraform
 [External HTTP(S) Load Balancing](https://cloud.google.com/load-balancing/docs/https) is a proxy-based Layer 7 load balancer that enables you to run and scale your services behind a single external IP address. External HTTP(S) Load Balancing distributes HTTP and HTTPS traffic to backends hosted on a variety of Google Cloud platforms (such as Compute Engine, Google Kubernetes Engine (GKE), Cloud Storage, and so on), as well as external backends connected over the internet or via hybrid connectivity. 
 
