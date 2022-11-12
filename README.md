@@ -439,3 +439,25 @@ Vault comes with various pluggable components called secrets engines and authent
 - Used the Vault web UI
 
 - Used the transit secret engine to encrypt/decrypt data
+
+
+
+## Continuous Delivery with Jenkins in Kubernetes Engine
+Jenkins is the go-to automation server used by developers who frequently integrate their code in a shared repository. 
+
+Jenkins is an open-source automation server that lets you flexibly orchestrate your build, test, and deployment pipelines. Jenkins allows developers to iterate quickly on projects without worrying about overhead issues that can stem from continuous delivery.
+
+When you need to set up a continuous delivery (CD) pipeline, deploying Jenkins on Kubernetes Engine provides important benefits over a standard VM-based deployment.
+
+When your build process uses containers, one virtual host can run jobs on multiple operating systems. Kubernetes Engine provides ephemeral build executors—these are only utilized when builds are actively running, which leaves resources for other cluster tasks such as batch processing jobs. Another benefit of ephemeral build executors is speed—they launch in a matter of seconds.
+
+Kubernetes Engine also comes pre-equipped with Google's global load balancer, which you can use to automate web traffic routing to your instance(s). The load balancer handles SSL termination and utilizes a global IP address that's configured with Google's backbone network—coupled with your web front, this load balancer will always set your users on the fastest possible path to an application instance.
+
+Now that you've learned a little bit about Kubernetes, Jenkins, and how the two interact in a CD pipeline, it's time to go build one.
+
+
+#### Lessons learnt
+Provisioned a Jenkins application into a Kubernetes Engine Cluster
+Set up my Jenkins application using Helm Package Manager
+Explored the features of a Jenkins application
+Created and exercise a Jenkins pipeline
