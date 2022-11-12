@@ -457,7 +457,7 @@ Now that you've learned a little bit about Kubernetes, Jenkins, and how the two 
 
 
 #### Lessons learnt
-Provisioned a Jenkins application into a Kubernetes Engine Cluster
-Set up my Jenkins application using Helm Package Manager
-Explored the features of a Jenkins application
-Created and exercise a Jenkins pipeline
+- Provisioned a Jenkins application into a Kubernetes Engine Cluster
+- Set up my Jenkins application using Helm Package Manager
+- Explored the features of a Jenkins application
+- Created and exercise a Jenkins pipeline
