@@ -477,3 +477,18 @@ Cloud Run brings "serverless" development to containers and can be run either on
 - Deployed Docker images to Cloud Run
 - Managed Cloud Run deployments
 - Setup an endpoint for an application on Cloud Run
+
+
+
+## Deploy, Scale, and Update Your Website on Google Kubernetes Engine
+Running websites and applications is hard. Things go wrong when they shouldn't, servers crash, increase in demand causes more resources to be utilized, and making changes without downtime is complicated and stressful. Imagine if there was a tool that could help you do all this and even allow you to automate it. With Kubernetes, all of this is not only possible, it's easy!
+
+
+#### Lessons learnt
+- Created a GKE cluster
+- Created a Docker container
+- Deployed the container to GKE
+- Exposed the container via a service
+- Scaled the container to multiple replicas
+- Modified the website
+- Rolled out a new version with zero downtime
