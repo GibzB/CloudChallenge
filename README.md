@@ -492,3 +492,16 @@ Running websites and applications is hard. Things go wrong when they shouldn't, 
 - Scaled the container to multiple replicas
 - Modified the website
 - Rolled out a new version with zero downtime
+
+
+
+## Create and Test a Document AI Processor
+The Document AI API is a document understanding solution that takes unstructured data, such as documents and emails, and makes the data easier to understand, analyze, and consume. With the general form processor used in this lab, you can extract key/value pairs from a simple document.
+
+
+#### Lessons learnt
+- Created and tested Document AI processor using the Cloud Console.
+- Tested Document AI processors using the command line.
+- Tested Document AI synchronous API calls using Python.
+
+
