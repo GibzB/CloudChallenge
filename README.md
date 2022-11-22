@@ -505,3 +505,20 @@ The Document AI API is a document understanding solution that takes unstructured
 - Tested Document AI synchronous API calls using Python.
 
 
+
+## Loading Data into Google Cloud SQL
+Cloud SQL is a fully managed relational database service for MySQL, PostgreSQL, and SQL Server with rich extension collections, configuration flags, and developer ecosystems.
+Many applications running on Compute Engine, App Engine and other services in Google Cloud use Cloud SQL for database storage.
+
+Each Cloud SQL instance is powered by a virtual machine (VM) running on a host Google Cloud server. Each VM operates the database program, such as MySQL Server, PostgreSQL, or SQL Server, and service agents that provide supporting services, such as logging and monitoring. The high availability option also provides a standby VM in another zone with a configuration that's identical to the primary VM.
+
+The database is stored on a scalable, durable network storage device called a persistent disk that attaches to the VM. A static IP address sits in front of each VM to ensure that the IP address an application connects to persists throughout the lifetime of the Cloud SQL instance.
+
+#### Lessons Learnt
+- Create Cloud SQL instance
+- Create a Cloud SQL database
+- Import text data into Cloud SQL
+- Build an initial data model using queries
+
+
+
