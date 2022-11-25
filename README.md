@@ -521,4 +521,13 @@ The database is stored on a scalable, durable network storage device called a pe
 - Build an initial data model using queries
 
 
+## Cloud Spanner - Database Fundamentals (OD)
+Cloud Spanner is Google’s fully managed, horizontally scalable relational database service. Customers in financial services, gaming, retail and many other industries trust it to run their most demanding workloads, where consistency and availability at scale are critical.
+
+#### Lessons Learnt
+- Created and deleted an instance, database, tables.
+- Insert and modified data.
+- Used the Google Cloud CLI with Cloud Spanner.
+- Used Automation Tools with Cloud Spanner.
+
 
