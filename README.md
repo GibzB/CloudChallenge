@@ -531,3 +531,16 @@ Cloud Spanner is Google’s fully managed, horizontally scalable relational data
 - Used Automation Tools with Cloud Spanner.
 
 
+
+## Datadog: Getting started with the Helm Chart
+Datadog is a hosted infrastructure monitoring platform. This chart adds the Datadog Agent to all nodes in your cluster via a DaemonSet. It also optionally depends on the kube-state-metrics chart. For more information about monitoring Kubernetes with Datadog, please refer to the Datadog documentation website.
+
+Datadog offers two variants, switch to a -jmx tag if you need to run JMX/java integrations. The chart also supports running the standalone dogstatsd image.
+
+#### Lessons Learnt
+- Deployed the Datadog Helm chart
+- Added a toleration to the agent
+- Changed configuration values from the Helm chart
+- Checked the logs
+- Enabled the APM agent
+- Enabled the cluster agent
