@@ -544,3 +544,14 @@ Datadog offers two variants, switch to a -jmx tag if you need to run JMX/java in
 - Checked the logs
 - Enabled the APM agent
 - Enabled the cluster agent
+
+
+## Check Point: Next-Gen Data Center Security CloudGuard for Google Cloud
+Next-Gen Data Center Security CloudGuard for Google Cloud is a comprehensive training program that teaches users how to secure their data centers using the powerful CloudGuard security solution from Check Point. The module covers a wide range of topics, including how to configure and manage firewall policies, how to protect against advanced threats, and how to troubleshoot and optimize security performance. The module also includes hands-on lab exercises that allow users to practice their skills in a simulated environment and gain real-world experience with the CloudGuard solution. Whether you are a security professional looking to expand your knowledge or an IT administrator looking to secure your data center, this module is a valuable resource for anyone looking to improve their security skills.
+
+#### Lessons Learnt
+- Prepared a public cloud environment for deployment
+- Deployed a Check Point CloudGuard cluster on Google Cloud
+- Created and configured the Cluster object on SmartConsole
+- Created an access policy and publish/install it on the Cluster
+- Created hosts in two different departments/locations and test the connectivity between them.
