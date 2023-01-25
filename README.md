@@ -555,3 +555,21 @@ Next-Gen Data Center Security CloudGuard for Google Cloud is a comprehensive tra
 - Created and configured the Cluster object on SmartConsole
 - Created an access policy and publish/install it on the Cluster
 - Created hosts in two different departments/locations and test the connectivity between them.
+
+
+
+## Using Elastic Stack to Monitor Google Cloud
+The Elastic Stack, also known as the ELK Stack, is a collection of open-source tools that are used for data analysis and visualization. It includes Elasticsearch, Logstash, and Kibana. Elasticsearch is a search engine and data analysis tool, Logstash is used for data collection, and Kibana is a visualization tool. Together, these tools allow for the efficient collection, analysis, and visualization of large amounts of data in real-time. They can be used for a variety of applications such as log analysis, security analytics, and business intelligence.
+
+Throughout the lab, I learnt how to use different Beats modules to collect data from different services on Google Cloud, such as Google Compute Engine, Google Kubernetes Engine, and Google Cloud Storage. You will also learn how to use Logstash, which is a data processing pipeline, to transform and enrich the data collected by Beats before it is indexed in Elasticsearch.
+I learnt how to use Kibana, which is a web-based data visualization and exploration tool, to gain insights from the data collected by Beats. With Kibana, you will be able to create visualizations and dashboards that will help you understand the performance of your services on Google Cloud.
+I developed a solid understanding of how to use the Elastic Stack to monitor services on Google Cloud and gain insights into their performance.
+
+
+#### Lessons learnt
+
+- Created an Elasticsearch deployment using Elastic Cloud
+- Used Beats to collect and monitor data from Google Cloud services
+- Used Kibana to visualize and explore the data collected by Beats
+- Used Logstash to transform and enrich the data collected by Beats
+- Gained insights into the performance of your services on Google Cloud using the Elastic Stack.
