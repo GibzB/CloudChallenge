@@ -1,7 +1,7 @@
 # ☁️ Cloud Challenges 
 My cloud computing learning journey. My hope is to encourage you to build secure, scalable, highly available and cost-effective cloud applications. 
 
-## Google Cloud Fundamentals: Getting Started with Cloud Marketplace
+## Google Cloud Fundamentals: Cloud Marketplace
 Used Google Cloud Marketplace to quickly and easily deploy a LAMP stack on a Compute Engine instance. The Bitnami LAMP Stack provides a complete web development environment for Linux that can be launched in one click.
 
 #### Lessons Learnt
