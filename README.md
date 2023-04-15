@@ -579,3 +579,18 @@ I developed a solid understanding of how to use the Elastic Stack to monitor ser
 - Used Kibana to visualize and explore the data collected by Beats
 - Used Logstash to transform and enrich the data collected by Beats
 - Gained insights into the performance of your services on Google Cloud using the Elastic Stack.
+
+
+## Cloud Functions: Qwik Start - Console
+The lab provides hands-on experience with creating and deploying a simple Cloud Function using the Google Cloud Console. 
+
+#### Lessons learnt
+
+- Creating a Cloud Function: 
+The lab walks through the process of creating a Cloud Function using the Google Cloud Console, including defining the function's trigger, selecting the runtime environment (e.g., Node.js or Python), and writing the function's code inline in the console.
+
+- Deploying a Cloud Function: 
+The lab covers the steps to deploy a Cloud Function, including configuring the deployment settings, such as region and memory allocation, and confirming the deployment in the console.
+
+- Testing a Cloud Function: 
+The lab demonstrates how to test a deployed Cloud Function using the built-in testing functionality in the Google Cloud Console. This includes providing input data, viewing logs, and verifying the function's output.
