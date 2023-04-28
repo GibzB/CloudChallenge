@@ -594,3 +594,14 @@ The lab covers the steps to deploy a Cloud Function, including configuring the d
 
 - Testing a Cloud Function: 
 The lab demonstrates how to test a deployed Cloud Function using the built-in testing functionality in the Google Cloud Console. This includes providing input data, viewing logs, and verifying the function's output.
+
+# Protecting Data with NetApp BlueXP & Cloud Volumes ONTAP for Google Cloud
+Introduces the concept of data protection with NetApp BlueXP and Cloud Volumes ONTAP for Google Cloud Platform. It provides hands-on experience on how to create a file share in Google Cloud Platform, how to install NetApp BlueXP for backup, how to configure policies, and how to initiate the backup process. The lab also covers how to restore data from backup and how to check the status of backups.
+
+
+#### Lessons Learnt
+- Created and managed file shares in Google Cloud Platform
+- Installed and configured NetApp BlueXP for backup
+- Created backup policies and initiated backup process
+- Restored data from backup
+- Checked the status of backups and ensured data protection
