@@ -618,9 +618,9 @@ Explored how you can use BeyondCorp Enterprise (BCE) and Identity-Aware Proxy (I
 
 #### Lessons Learnt
 
-* Enable IAP TCP forwarding in your Google Cloud project
-* Create Linux and Windows Instances
-* Test connectivity to your Linux and Windows instances
-* Configure the required firewall rules for BCE
-* Grant permissions to use IAP TCP forwarding
-* Demonstrate tunneling using SSH and RDP connections
+* Enabled IAP TCP forwarding in your Google Cloud project
+* Created Linux and Windows Instances
+* Tested connectivity to your Linux and Windows instances
+* Configured the required firewall rules for BCE
+* Granted permissions to use IAP TCP forwarding
+* Demonstrated tunneling using SSH and RDP connections
