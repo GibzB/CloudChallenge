@@ -624,3 +624,28 @@ Explored how you can use BeyondCorp Enterprise (BCE) and Identity-Aware Proxy (I
 * Configured the required firewall rules for BCE
 * Granted permissions to use IAP TCP forwarding
 * Demonstrated tunneling using SSH and RDP connections
+
+# Building Demand Forecasting with BigQuery ML
+
+[BigQuery](https://cloud.google.com/bigquery/) is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infrastructure to manage, or needing a database administrator.
+
+[BigQuery Machine Learning](https://cloud.google.com/bigquery/docs/bigqueryml-analyst-start) (BQML) is a feature in BigQuery where data analysts can create, train, evaluate, and predict with machine learning models with minimal coding.
+
+#### Lessons Learnt
+
+-- Learnt how to build a time series model to forecast the demand of multiple products using BigQuery ML.
+
+-- Used the public dataset for NYC Bike Trips. This dataset can be accessed in [Marketplace within the Google Cloud console](https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset). BigQuery makes it easy to access public datasets directly from the Explorer interface.
+
+* Used BigQuery to find public datasets.
+* Queried and explore the public `NYC Citi Bike Trips` dataset.
+* Created a training and evaluation dataset to be used for batch prediction.
+  * To forecast multiple items at the same time, different pipelines are run in parallel.
+* Created a forecasting (time series) model in BQML.
+  * -- **ARIMA** is one of the core algorithms available in BigQuery ML used to train a time series model.
+
+    * **Pre-processing** : Automatic cleaning adjustments to the input time series, including missing values, duplicated timestamps, spike anomalies, and accounting for abrupt level changes in the time series history.
+    * **Holiday effects** : Time series modeling in BigQuery ML can also account for holiday effects. By default, holiday effects modeling is disabled. But since this data is from the United States, and the data includes a minimum one year of daily data, you can also specify an optional `HOLIDAY_REGION`. With holiday effects enabled, spike and dip anomalies that appear during holidays will no longer be treated as anomalies. A full list of the holiday regions can be found in the `HOLIDAY_REGION` documentation.
+    * **Seasonal and trend decomposition** using the Seasonal and Trend decomposition using `LOgical regrESSion` (Loess STL) algorithm. Seasonality extrapolation using the double exponential smoothing (ETS) algorithm.
+    * **Trend modeling** using the ARIMA model and the auto. ARIMA algorithm for automatic hyper-parameter tuning. In auto.ARIMA, dozens of candidate models are trained and evaluated in parallel, which include p,d,q and drift. The best model comes with the lowest `Akaike` information criterion (AIC).
+* Evaluated the performance of your machine learning model.
