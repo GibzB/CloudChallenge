@@ -649,3 +649,31 @@ Explored how you can use BeyondCorp Enterprise (BCE) and Identity-Aware Proxy (I
     * **Seasonal and trend decomposition** using the Seasonal and Trend decomposition using `LOgical regrESSion` (Loess STL) algorithm. Seasonality extrapolation using the double exponential smoothing (ETS) algorithm.
     * **Trend modeling** using the ARIMA model and the auto. ARIMA algorithm for automatic hyper-parameter tuning. In auto.ARIMA, dozens of candidate models are trained and evaluated in parallel, which include p,d,q and drift. The best model comes with the lowest `Akaike` information criterion (AIC).
 * Evaluated the performance of your machine learning model.
+
+# Redacting Sensitive Data with Cloud Data Loss Prevention
+
+Cloud Data Loss Prevention (Cloud DLP) is a fully managed service designed to help discover, classify, and protect sensitive information. 
+
+Cloud DLP can perform de-identification. **`De-identification`** is the process of removing identifying information from data. The API detects sensitive data as defined by info types, then uses a de-identification transformation to mask, delete, or otherwise obscure the data.
+
+The DLP API protects sensitive data in a variety of ways, including:
+
+* **Redaction:** redact sensitive data from a document or file.
+* **Masking:** mask sensitive data with a placeholder, such as *.
+* **Tokenization:** replace sensitive data with a unique identifier.
+* **Encryption:** encrypt sensitive data.
+
+#### Lessons Learnt
+
+Used Cloud DLP to inspect strings and files for multiple info types, and used the DLP API to redact data from a string and an image.
+
+APIs used:
+
+* **Cloud Data Loss Prevention API** - Provides methods for detection, risk analysis, and de-identification of privacy-sensitive fragments in text, images, and Google Cloud Platform storage repositories.
+* **Cloud Key Management Service (KMS) API** - Google Cloud KMS allows encryption key management and performs cryptographic operations with those keys.
+
+Used Cloud DLP to do the following:
+
+* Inspected strings and files for matching info types
+* Learnt about de-identification techniques and de-identify data
+* Redacted info types in strings and images; The DLP API can redact information from images that contain text.
