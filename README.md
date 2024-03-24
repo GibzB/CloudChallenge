@@ -652,7 +652,7 @@ Explored how you can use BeyondCorp Enterprise (BCE) and Identity-Aware Proxy (I
 
 # Redacting Sensitive Data with Cloud Data Loss Prevention
 
-Cloud Data Loss Prevention (Cloud DLP) is a fully managed service designed to help discover, classify, and protect sensitive information. 
+Cloud Data Loss Prevention (Cloud DLP) is a fully managed service designed to help discover, classify, and protect sensitive information.
 
 Cloud DLP can perform de-identification. **`De-identification`** is the process of removing identifying information from data. The API detects sensitive data as defined by info types, then uses a de-identification transformation to mask, delete, or otherwise obscure the data.
 
@@ -677,3 +677,6 @@ Used Cloud DLP to do the following:
 * Inspected strings and files for matching info types
 * Learnt about de-identification techniques and de-identify data
 * Redacted info types in strings and images; The DLP API can redact information from images that contain text.
+
+
+# Detect and Investigate Threats with Security Command Center
