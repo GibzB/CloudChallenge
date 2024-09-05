@@ -678,5 +678,18 @@ Used Cloud DLP to do the following:
 * Learnt about de-identification techniques and de-identify data
 * Redacted info types in strings and images; The DLP API can redact information from images that contain text.
 
+# Connected Sheets: Analyzing BigQuery Data
+
+[Connected Sheets](/Users/bizee/Documents/Code_Projects/CloudChallenge/Connected Sheets.xlsx) enables users to analyze massive datasets from BigQuery in Google Sheets without needing SQL knowledge. You can apply spreadsheet tools like formulas, pivot tables, and charts to explore large datasets and automate refreshes.
+
+#### Lessons learnt
+
+* Connected a BigQuery dataset to Google Sheets for analysis.
+* Applied formulas to calculate key metrics such as tip percentages.
+* Created charts to visualize trends in payment methods.
+* Used pivot tables to analyze ride patterns and peak taxi times.
+* Imported large subsets of data using the Extract feature.
+* Created calculated columns to transform existing data (e.g., tip percentage).
+* Set up scheduled refreshes for automated data updates.
 
 # Detect and Investigate Threats with Security Command Center
