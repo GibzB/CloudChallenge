@@ -692,4 +692,24 @@ Used Cloud DLP to do the following:
 * Created calculated columns to transform existing data (e.g., tip percentage).
 * Set up scheduled refreshes for automated data updates.
 
+## Create and Manage AlloyDB Instances: Challenge Lab
+
+In this challenge lab, you will put your knowledge of managing AlloyDB for PostgreSQL to the test. You will create and manage a cluster and instance, work with datasets, and ensure backups for database availability.
+
+#### Lessons learnt
+
+* Created a cluster and instance in AlloyDB for PostgreSQL using both the Cloud Console and gcloud CLI.
+* Designed and created PostgreSQL tables for storing HR-related data.
+* Loaded data into PostgreSQL tables using the psql client on a pre-configured VM.
+* Configured a Read Pool instance to improve database read performance.
+* Created on-demand backups to secure database data.
+
+#### Skills gained
+
+* Cluster and instance creation using AlloyDB.
+* PostgreSQL database schema design and table creation.
+* Data loading into PostgreSQL using the psql client.
+* Configuring read pools for performance scaling.
+* Managing backups for database protection and recovery.
+
 # Detect and Investigate Threats with Security Command Center
