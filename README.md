@@ -708,5 +708,47 @@ This challenge lab tests your ability to set up and manage AlloyDB instances. Yo
 
 One of the most intriguing parts was setting up the Read Pool instance, which is a unique feature in AlloyDB that optimizes database read operations. As a beginner, it was fascinating to see how easy it is to scale reads without impacting the main instance’s performance!
 
+# Creating and Populating a Bigtable Instance
+
+I worked with **Google Cloud Bigtable**, a fully managed, scalable NoSQL database service optimized for large datasets. The lab involved creating a Bigtable instance, loading data from Cloud Storage using **Google Cloud Dataflow**, and verifying the successful data load using the Bigtable CLI (`cbt`). Finally, I deleted the instance and table to clean up resources.
+
+Bigtable is ideal for use cases like **personalization**, **ad tech**, **IoT**, and **financial tech**, due to its ability to handle high throughput and low latency in processing massive datasets.
+
+1. Bigtable Instance and Table Creation
+
+- Created a Bigtable instance named `personalized-sales` with **SSD storage** and **manual node scaling**.
+- Created a table named `UserSessions` with two column families:
+  - `Interactions`: To store user interaction data.
+  - `Sales`: To store product sales data.
+
+2. Data Loading via Dataflow
+
+- Set up a **Cloud Storage bucket** to store temporary files required for the Dataflow job.
+- Ran a **Dataflow job** using the template: *SequenceFile Files on Cloud Storage to Cloud Bigtable*.
+  - Input data from a predefined Cloud Storage path (`gs://cloud-training/OCBL377/retail-interactions-sales-00000-of-00001`).
+  - Loaded the data into the `UserSessions` table in Bigtable.
+
+3. Data Verification
+
+- Configured the Bigtable CLI (`cbt`) by modifying the `.cbtrc` file with the project ID and instance ID.
+- Queried the table to verify that the data was loaded successfully, retrieving the first ten rows of data.
+
+4. Cleanup
+
+- Deleted the `UserSessions` table and the `personalized-sales` Bigtable instance to avoid incurring charges.
+
+## Lessons Learned
+
+- **Google Bigtable** provides a powerful solution for handling large-scale, low-latency data processing, especially in scenarios requiring high read and write throughput.
+- **Dataflow** enables seamless integration between different Google Cloud services like Cloud Storage and Bigtable, automating the ETL (Extract, Transform, Load) process without writing complex code.
+- Using the **Bigtable CLI (`cbt`)** for querying and managing Bigtable is highly efficient, especially for verifying data post-load.
+
+## Skills Gained
+
+- Creating and managing **Bigtable instances and tables**.
+- Understanding of **column families** and **row keys** in Bigtable schema design.
+- Executing **Dataflow jobs** to load large datasets into Bigtable.
+- Using the **Bigtable CLI** to interact with tables and perform basic queries.
+- Managing cloud resources effectively, including cleanup procedures to avoid unnecessary costs.
 
 # Detect and Investigate Threats with Security Command Center
