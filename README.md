@@ -751,4 +751,7 @@ Bigtable is ideal for use cases like **personalization**, **ad tech**, **IoT**, 
 - Using the **Bigtable CLI** to interact with tables and perform basic queries.
 - Managing cloud resources effectively, including cleanup procedures to avoid unnecessary costs.
 
+# Introduction to Computer Vision with TensorFlow
+
+
 # Detect and Investigate Threats with Security Command Center
