@@ -61,6 +61,8 @@ I monitored cross-zonal traffic between two chatty pods using  **VPC flow logs**
 
 Here, I will add a screenshot from the BigQuery dataset showing flow logs indicating cross-zonal traffic.
 
+![flow_logs](<images/Screenshot 2024-10-09 at 11.48.11.png>)
+
 ### Moving Pods to the Same Zone
 
 By adjusting the **Pod Anti Affinity** rule to a **Pod Affinity** rule, I ensured that both pods were scheduled on the same node. This minimized cross-zonal traffic and improved latency.
