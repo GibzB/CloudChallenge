@@ -22,3 +22,9 @@ echo "Project name: $project_name"
 echo "Author name: $author_name"
 echo "Directories created: $project_name, $project_name/images"
 echo "README.md files created in each directory with initial content."
+
+# Change directory to the project root
+cd "$project_name"
+
+# Open VS Code in the project directory
+code .
