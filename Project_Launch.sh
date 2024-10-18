@@ -13,7 +13,7 @@ mkdir "$project_name"
 mkdir "$project_name/images"
 
 # Create README.md files
-echo $project_name > "$project_name/README.md"
+echo "# $project_name" > "$project_name/README.md"
 
 
 # Descriptive output
